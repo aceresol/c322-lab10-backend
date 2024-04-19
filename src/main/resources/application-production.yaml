@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgres://ducks_jabj_user:VCkO1hDpiAr4pXo7FFvLtjtA4u0iFRGP@dpg-coh8bded3nmc73a136b0-a/ducks_jabj
+    username: ducks_jabj_user
+    password: VCkO1hDpiAr4pXo7FFvLtjtA4u0iFRGP
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+  sql:
+    init:
+      mode: always
